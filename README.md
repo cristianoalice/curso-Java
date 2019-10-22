@@ -1,13 +1,14 @@
 # curso-Java
 
-# em Casa: git clone git@github.com:cristianoalice/curso-Java.git
+
+Em Casa: git clone git@github.com:cristianoalice/curso-Java.git
 Obs.: tive que usar o https://github.com/cristianoalice/curso-Java.git
 
 
 
-# git pull origin master (para atualizar na máquina local o código mais recente que consta no github)
+1)  git pull origin master (para atualizar na máquina local o código mais recente que consta no github)
 
-# git add * (prepara para o commit)
-# git commit -m "nome do commit"
+2)  git add * (prepara para o commit)
+3)  git commit -m "nome do commit"
 
-# git push origin master (para hospedar no github o código feito)
+4) git push origin master (para hospedar no github o código feito)
