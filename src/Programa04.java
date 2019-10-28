@@ -1,32 +1,32 @@
-﻿import java.util.Scanner;
-
-// exercício 4
+﻿// if, else, else if
 
 public class Programa04 {
 	public static void main(String[] args) {
-		int num1, num2, num3, num4;
-		Scanner teclado = new Scanner (System.in);
+		// Declarando e inicializando a variável
+		int num1 = 4 ;
 		
-		
-		System.out.println("Quantas vezes vocês surfou na 1ª semana do mês?");
-		num1 = Integer.parseInt(teclado.nextLine());
-		
-		System.out.println("Quantas vezes vocês surfou na 2ª semana do mês?");
-		num2 = Integer.parseInt(teclado.nextLine());
-		
-		System.out.println("Quantas vezes vocês surfou na 3ª semana do mês?");
-		num3 = Integer.parseInt(teclado.nextLine());
-		
-		System.out.println("Quantas vezes vocês surfou na última semana do mês?");
-		num4 = Integer.parseInt(teclado.nextLine());
-		
-		System.out.println("Você surfou " + (num1 + num2 + num3 + num4) + " vezes no mês passado.");
-		
-		if (num1 + num2 + num3 + num4 > 15) {
-			System.out.println("Parabéns!! Você surfou bastante!! Continue assim...");
+		/*
+		 * if / Se o número for maior que 5 
+		 * escreva ("Sim, o número " + num1 + " é maior que 5.")
+		 * 
+		 * else if / senão se o número for igual a 5
+		 * escreva ("O número " + num1 + " é igual a  5.");
+		 * 
+		 * else / senão
+		 * escreva ("Não, o número " + num1 + " não é maior que 5.");
+		 * 
+		 */
+		if (num1 > 5) {
+			System.out.println("Sim, o número " + num1 + " é maior que 5.");
+		}else if (num1 == 5) {
+			System.out.println("O número " + num1 + " é igual a 5.");
+		// verificando se o número é par
+		}else if (num1 % 2 == 0) {
+			System.out.println("O número " + num1 + " é par.");
 		}else {
-			System.out.println("Legal!! Mas você pode mais!! Vá remar...");
+			System.out.println("Não, o número " + num1 + " não é maior que 5.");
 		}
+				
 				
 			
 			
