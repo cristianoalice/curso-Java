@@ -1,3 +1,4 @@
+package br.com.udemy.secao01;
 
 public class Teste {
 
