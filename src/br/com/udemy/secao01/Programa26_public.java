@@ -13,7 +13,7 @@ public class Programa26_public {
 	public static void main(String[] args) {
 		Cliente cli = new Cliente("Joana Darc", "Rua da Praia, s/nº");
 		
-		System.out.println("O nome é " + cli.nome);
-		System.out.println("O endereço é " + cli.endereco);
+		//System.out.println("O nome é " + cli.nome); //private
+		//System.out.println("O endereço é " + cli.endereco); //private
 	}
 }

@@ -13,14 +13,14 @@ public class Conta {
 	private float limite;
 	private Cliente cliente;
 	
-	//Construtor
+//Construtor
 	public Conta(int numero, float saldo, float limite, Cliente cliente) {
 		this.numero = numero;
 		this.saldo = saldo;
 		this.limite = limite;
 		this.cliente = cliente;
 	}
-	//Método sacar
+//Método sacar
 	//this.saldo = this.saldo - valor;
 	public void sacar(float valor) {
 		if (valor <= this.saldo) {
@@ -40,7 +40,7 @@ public class Conta {
 			//Aqui eu posso usar o "this.saldo" ao invés do "saldo"?
 		}
 	}
-	//Método depositar
+//Método depositar
 	//this.saldo = this.saldo - valor;
 	public void depositar(float valor) {
 			this.saldo = this.saldo + valor;
