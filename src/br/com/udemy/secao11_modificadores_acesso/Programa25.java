@@ -1,4 +1,4 @@
-package br.com.udemy.secao11;
+package br.com.udemy.secao11_modificadores_acesso;
 //Encapsulamento  -->
 public class Programa25 {
 	

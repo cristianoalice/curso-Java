@@ -1,6 +1,6 @@
 package br.com.udemy.secao01;
 
-import br.com.udemy.secao11.Cliente;
+import br.com.udemy.secao11_modificadores_acesso.Cliente;
 
 //Public
 
