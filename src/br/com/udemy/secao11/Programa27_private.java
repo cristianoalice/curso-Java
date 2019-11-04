@@ -13,12 +13,14 @@ public class Programa27_private {
 	
 		System.out.println("Nome: " + cli1.getNome());
 		System.out.println("Endereço: " + cli1.getEndereco());
+		cli1.dizer_oi();
 		
 		
 		Cliente cli2 = new Cliente("Greicy Dias", "Avenida Campeche, 5437");
 		
 		System.out.println("Nome: " + cli2.getNome());
 		System.out.println("Endereço: " + cli2.getEndereco());
+		cli2.dizer_oi();
 
 			
 	
