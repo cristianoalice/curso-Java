@@ -1,7 +1,6 @@
-﻿
 # curso-Java
 
-• git clone https://github.com/cristianoalice/curso-Java.git
+• git clone https://github.com/cristianoalice/curso_Java_Ultimate.git
 
 
 1) Abra o terminal ou Git Bash e vá até a pasta onde está o seu projeto.
