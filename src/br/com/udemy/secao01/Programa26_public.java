@@ -1,12 +1,14 @@
 package br.com.udemy.secao01;
 //PUBLIC
 
+import br.com.udemy.secao11_modificadores_acesso.Cliente;
+
 /*
 Public / público
 Pode ser utilizado em todo o projeto
 */
 
-import br.com.udemy.secao11.Cliente;
+
 
 public class Programa26_public {
 
