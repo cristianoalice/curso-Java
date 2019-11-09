@@ -43,6 +43,11 @@ public class Pessoa_classe_pai {
 	}
 	
 	
+	public String toString() { return "Nome: " + this.nome + "\nAno de nascimento: " +
+	this.ano_nascimento; }
+	
+	
+	
 	
 	
 	

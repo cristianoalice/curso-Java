@@ -34,9 +34,14 @@ public class Aluno extends Pessoa_classe_pai{
 	}
 	public void setRa(String ra) {
 		this.ra = ra;
+	}	
+	
+	public String toString() {
+		return super.toString() + "\nR.A.: " + this.ra;
 	}
 	
-	
-	
+	public String getNome() {
+		return "Aluno: \n" +super.getNome();
+	}
 	
 }

@@ -16,6 +16,14 @@ public class Professor extends Pessoa_classe_pai{
 		this.matricula = matricula;
 	}
 	
+	public String toString() {
+		return super.toString() + "\nMatrícula: " + this.matricula;
+	}
+	
+	public String getNome() {
+		return "Professor: \n" +super.getNome();
+	}
+	
 	
 
 }
