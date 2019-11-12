@@ -7,11 +7,11 @@ package br.com.udemy.secao12_heranca_polimorfismo;
 public class Programa28 {
 
 	public static void main(String[] args) {
-		Pessoa_classe_pai p1 = new Pessoa_classe_pai("Sepé Tiarajú", 1978, "sepe@gmail.com");
-		
-		System.out.println(p1);
-		System.out.println(p1.getNome());
-		System.out.println("\n");
+//		Pessoa_classe_pai p1 = new Pessoa_classe_pai("Sepé Tiarajú", 1978, "sepe@gmail.com");
+//		
+//		System.out.println(p1);
+//		System.out.println(p1.getNome());
+//		System.out.println("\n");
 		
 		//System.out.println(p1.getNome());
 		

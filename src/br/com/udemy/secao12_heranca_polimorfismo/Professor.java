@@ -15,13 +15,19 @@ public class Professor extends Pessoa_classe_pai{
 	public void setMatricula(String matricula) {
 		this.matricula = matricula;
 	}
-	
+	//Overriding ou sobrescrita de método
 	public String toString() {
 		return super.toString() + "\nMatrícula: " + this.matricula;
 	}
-	
+	//Overriding ou sobrescrita de método
 	public String getNome() {
 		return "Professor: \n" +super.getNome();
+	}
+
+	@Override
+	public void outra_mensagem(String texto) {
+		System.out.println(texto);
+		
 	}
 	
 	
